@@ -19,6 +19,12 @@
     },
     "devDependencies": {
         "run-script-os": "^1.0.3",
-        "browser-sync": "2.23.6"
+        "browser-sync": "2.23.6",
+        "gulp": "^3.9.1",
+        "gulp-clean-css": "3.9.2",
+        "gulp-header": "2.0.1",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^3.1.0",
+        "gulp-uglify": "3.0.0"
     }
 }
