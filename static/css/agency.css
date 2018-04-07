@@ -203,7 +203,7 @@ header.masthead .intro-text .intro-heading {
 
 header.masthead .intro-text .intro-info {
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 50px;
+  font-size: 1.25em;
   font-weight: 700;
   margin-bottom: 25px;
 }
