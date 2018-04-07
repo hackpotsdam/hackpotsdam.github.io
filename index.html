@@ -54,7 +54,9 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">hack_potsdam</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <!-- <img src="/static/img/logos/HackPotsdam_sm.png" alt=""> -->
+        </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -95,14 +97,16 @@
       </div>
     </header>
 
-    <!-- Services -->
+    <!-- About -->
     <section id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">What Is Hack Potsdam?</h2>
-            <h3 class="section-subheading text-muted">A hackathon is a 24-hour event in which programmers, designers, and artists collaboratively work to complete projects in small teams.</h3>
-            <h3 class="section-subheading text-muted">Hack Potsdam is open to any participant over 18, including students, alumni, and professors. The event is free to attend, and food will be served throughout the day.</h3>
+            <h2 class="section-heading text-uppercase">Hack Potsdam</h2>
+            <h3 class="section-subheading">Hack Potsdam is a hackathon. <br>
+              A hackathon is a 24-hour event in which programmers, designers, and artists collaboratively work to complete projects for prizes.</h3>
+            <h3 class="section-subheading">Hack Potsdam is open to any participant over 18, including students, alumni, and professors. <br>
+              The event is <span style="font-weight:bold;">free</span> to attend, three meals are served in te 24 hours.</h3>
           </div>
         </div>
         <div class="row text-center">
@@ -134,12 +138,32 @@
       </div>
     </section>
 
-    <!-- Portfolio Grid -->
+    <!-- DOG PARK -->
+    <section id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Officially in support of<br>
+              <span style="font-size: 1.5em;">the Potsdam Dog Park</span></h2>
+              <h3 class="section-subheading text-muted">All event proceeds are going to support dogs because they're generally better than people.</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="team-member">
+                <img class="img-responsive organizer-logo" src="/static/img/logos/dogpark.jpeg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Hosts -->
     <section class="bg-light" id="hosts">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Hosts</h2>
+            <h2 class="section-heading text-uppercase">Collaborators</h2>
             <h3 class="section-subheading text-muted">Hack Potsdam is hosted by
               <a href="https://www.potsdamacm.com">SUNY Potsdam ACM</a> and the
               <a href="http://cslabs.clarkson.edu/cosi.html">Clarkson Open Source
@@ -159,75 +183,81 @@
       </div>
     </section>
 
-    <!-- Team -->
-    <section id="team">
+
+    <!-- Past Events -->
+    <section class="bg-light" id="pastevents">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Officially in support of<br>
-              <span style="font-size: 1.5em;">the Potsdam Dog Park</span></h2>
-            <h3 class="section-subheading text-muted">All event proceeds are going to support dogs because they're generally better than people.</h3>
+            <h2 class="section-heading text-uppercase">Past Events</h2>
+            <!-- <h3 class="section-subheading text-muted"></h3> -->
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-12">
-            <div class="team-member">
-              <img class="img-responsive organizer-logo" src="/static/img/logos/dogpark.jpeg" alt="">
+          <!-- Fall 17 -->
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-lightbulb-o fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="/static/img/pastevents/fall16.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Hack Potsdam lite</h4>
+              <h5>Fall 17</h5>
+              <!-- <p class="text-muted">9/17 - 9/18</p>
+              <p class="text-muted">49 Participants</p>
+              <p class="text-muted">5 Projects</p> -->
             </div>
           </div>
+
+          <!-- Hack Potsdam Spring 17 -->
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-snowflake-o fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="/static/img/pastevents/spring17.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Hack Potsdam</h4>
+              <h5>Spring 17</h5>
+              <!-- <p class="text-muted">3/4 - 3/5</p>
+              <p class="text-muted">105 Participants</p>
+              <p class="text-muted">10 Projects</p> -->
+            </div>
+          </div>
+
+          <!-- Fall 16 -->
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-laptop fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="/static/img/pastevents/fall16.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Fall Hackathon</h4>
+              <h5>Fall 16</h5>
+              <!-- <p class="text-muted">9/17 - 9/18</p>
+              <p class="text-muted">49 Participants</p>
+              <p class="text-muted">5 Projects</p> -->
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
 
-    <!-- Past Events -->
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h1 class="section-heading">Events We Host</h1>
-                    <h2 class="section-subheading text-muted">We host awesome events twice a year.</h2>
-                </div>
-            </div>
-            <div class="row">
-                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="spring-2017/index.html" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/studentcenter.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Spring 2017</h4>
-                        <p class="text-muted">3/4 - 3/5</p>
-                        <p class="text-muted">105 Participants</p>
-                        <p class="text-muted">10 Projects</p>
-                        <a href="spring-2017/index.html" data-toggle="modal"><button type="button" class="btn btn-primary">See More</button></a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="fall-2016/index.html" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/hack-potsdam-overlay.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Fall 2016</h4>
-                        <p class="text-muted">9/17 - 9/18</p>
-                        <p class="text-muted">49 Participants</p>
-                        <p class="text-muted">5 Projects</p>
-                        <a href="fall-2016/index.html" data-toggle="modal"><button type="button" class="btn btn-primary">See More</button></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <hr/>
+
+    <!-- FOOTER -->
     <footer id="contact">
         <div class="container">
             <div class="row">
