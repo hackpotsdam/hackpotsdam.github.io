@@ -194,7 +194,7 @@ header.masthead .intro-text .intro-lead-in {
 }
 
 header.masthead .intro-text .intro-heading {
-  font-size: 50px;
+  font-size: 25px;
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
@@ -203,7 +203,7 @@ header.masthead .intro-text .intro-heading {
 
 header.masthead .intro-text .intro-info {
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 25px;
+  font-size: 50px;
   font-weight: 700;
   margin-bottom: 25px;
 }
@@ -221,19 +221,25 @@ header.masthead .intro-text .intro-code {
     padding-bottom: 75px;
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 25px;
+    line-height: 25px;
     margin-bottom: 25px;
     font-family: 'Titillium Web', sans-serif;
   }
+
   header.masthead .intro-text .intro-heading {
-    font-size: 75px;
+    font-size: 50px;
     font-weight: 700;
     line-height: 75px;
     font-family: 'IBM Plex Mono', monospace;
   }
 
-
+  header.masthead .intro-text .intro-info {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
 }
 
 .service-heading {
