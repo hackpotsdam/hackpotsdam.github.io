@@ -259,6 +259,7 @@ header.masthead .intro-text .intro-code {
   text-transform: none;
 }
 
+<<<<<<< HEAD
 .prizes-row {
   display: grid;
   text-align: center;
@@ -273,6 +274,8 @@ header.masthead .intro-text .intro-code {
   font-size: 40px;
 }
 
+=======
+>>>>>>> 929575136156ba59f47db0937ac988b274befa1a
 #pastevents .portfolio-item {
   right: 0;
   margin: 0 0 15px;
@@ -710,11 +713,14 @@ footer span.copyright {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+<<<<<<< HEAD
 footer ul {
   list-style-type: none;
   padding-left: 0px;
 }
 
+=======
+>>>>>>> 929575136156ba59f47db0937ac988b274befa1a
 footer ul.quicklinks {
   font-size: 50%;
   line-height: 40px;
