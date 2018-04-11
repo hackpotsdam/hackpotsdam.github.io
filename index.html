@@ -84,9 +84,9 @@
           <div class="intro-code">
             <div class="intro-heading">ready();</div>
             <div class="intro-heading">set();</div>
-            <div class="intro-heading">hack();</div>
+            <div class="intro-heading">hack_potsdam();</div>
           </div>
-          <div class="intro-lead-in">Hack Potsdam is a student&#8209;run, collaborative computer programming event.</div>
+          <div class="intro-lead-in" style="margin-bottom: 50px;">Hack Potsdam is a student&#8209;run, collaborative computer programming event.</div>
           <div class="intro-info">{
             date:&nbsp;'04.21.2018',
             time:&nbsp;'11:00&nbsp;AM',
@@ -98,18 +98,22 @@
     </header>
 
     <!-- About -->
-    <section id="about" style="background-color: oldlace;">
+    <section id="about">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center">
+          <div class="col-lg-12 text-center" style="margin-bottom: 20px 0;">
             <h2 class="section-heading text-uppercase">Hack Potsdam</h2>
-            <h3 class="section-subheading">Hack Potsdam is a hackathon. <br>
+            <h3 style="font-weight: normal;">Hack Potsdam is a hackathon. <br>
               A hackathon is a 24-hour event in which programmers, designers, and artists collaboratively work to complete projects for prizes.</h3>
-            <h3 class="section-subheading">Hack Potsdam is open to any participant over 18, including students, alumni, and professors. <br>
-              The event is <span style="font-weight:bold;">free</span> to attend, three meals are served in te 24 hours.</h3>
+            <h3 style="font-weight: normal;">Hack Potsdam is open to any participant over 18, including students, alumni, and professors. <br>
+              The event is <span style="font-weight:bold;">free</span> to attend, three meals are served in the 24 hours.</h3><br>
+              <a class="btn btn-primary btn-sm text-uppercase js-scroll-trigger" href="https://www.potsdam.edu/about/visit/maps">SUNY Potsdam Campus Map
+              </a>
           </div>
         </div>
-        <div class="row text-center">
+
+        <!-- silly bootstrap icon about -->
+        <div class="row text-center" style="margin-top: 40px;">
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
@@ -131,34 +135,69 @@
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-dollar fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Win prizes. ESMERALDA -- CHANGE THIS</h4>
-            <p class="text-muted">Prizes awarded to biggest team, messiest codebase, and slowest workers.</p>
+            <h4 class="service-heading">Win prizes.</h4>
+            <p class="text-muted">See below.</p>
           </div>
         </div>
-          <div class="prizes-row">
-            <div class="dogpark prize">$200</div>
-            <div class="dog_logo">BORK</div>
-          </div>
-          <div class="prizes-row">
-            <div class="first prize">$500</div>
-            <div class="second prize">$250</div>
-            <div class="third prize">$100</div>
-          </div>
-          <div class="prizes-row">
-            <div class="idea prize">$50</div>
-            <div class="earlybird prize">$100</div>
-          </div>
+
       </div>
     </section>
 
+    <!-- PRIZES -->
+    <section id="prizes" style="padding: 0;">
+      <div class="vert-grid">
+        <!-- dogpark prize row -->
+        <div class="prizes-row-2x" style="max-width: 800px; margin: auto; grid-template-columns: 1fr 1.5fr; margin-bottom: 20px; grid-gap: 10px;">
+          <!-- <img class="dog-prize-photo" src="/static/img/dog-jumping.jpg" alt="" style="margin: auto;"> -->
+          <div class="dogpark prize" style="min-width: 200px;">
+            <h1>$200</h1>
+            <h2>Sponsored Solution</h2>
+            <h4>for the <span class="text-uppercase"> Potsdam Community Dog Park</span></h4>
+          </div>
+          <p style="font-size: 1.2em;"><b>The Potsdam Community Dog Park would like a solution from our local hackers.</b> <br>
+            Can you create a mobile app that would allow dog owners to sign their dogs in & out of the park? <br>
+            This would allow dog owners to schedule their visits more effectively. 🐶 <br>
+          </p>
+        </div>
+        <!-- first second third row -->
+        <div class="prizes-row-3x" style="max-width: 600px; margin: auto; margin-bottom: 20px;">
+          <div class="first prize">
+            <h1>$500</h1>
+            <h4>First Place</h4>
+          </div>
+          <div class="second prize">
+            <h1>$250</h1>
+            <h4>Second Place</h4>
+          </div>
+          <div class="third prize">
+            <h1>$100</h1>
+            <h4>Third Place</h4>
+          </div>
+        </div>
+        <!-- extra prizes row -->
+        <div class="prizes-row-2x" style="max-width: 600px; margin: auto; margin-bottom: 20px;">
+          <div class="idea prize">
+            <h1>$50</h1>
+            <h4>Best Idea</h4>
+          </div>
+          <div class="early prize">
+            <h1>$50</h1>
+            <h4>Best Early Submission</h4>
+          </div>
+        </div>
+     </div>
+    </section>
+
     <!-- DOG PARK -->
-    <section id="team">
+    <section id="mission" style="padding-bottom: 0px;">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Officially in support of<br>
-              <span style="font-size: 1.5em;">the Potsdam Dog Park</span></h2>
-              <h3 class="section-subheading text-muted">All event proceeds are going to support dogs because they're generally better than people.</h3>
+            <!-- <h2 class="section-heading text-uppercase">Officially in support of<br>
+              <span style="font-size: 1.5em;">the Potsdam Community Dog Park</span></h2> -->
+            <h2 class="text-uppercase">Officially in support of</h4>
+            <h1 class="text-uppercase">the Potsdam Community Dog Park</h2>
+            <!-- <h3 class="section-subheading text-muted">All event proceeds are going to the the Potsdam Dog Park!</h3> -->
             </div>
           </div>
           <div class="row">
@@ -172,7 +211,7 @@
       </section>
 
     <!-- Hosts -->
-    <section id="hosts" style="background-color: oldlace;">
+    <section id="hosts">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -189,6 +228,7 @@
             <img class="img-fluid organizer-logo" src="/static/img/acm-logo.png" alt="">
             <img class="img-fluid organizer-logo" src="/static/img/cosi.png" alt="">
           </div>
+
           <!-- <div class="col-md-6 col-sm-6 portfolio-item">
               <img class="img-fluid organizer-logo" src="/static/img/acm-logo.png" alt="">
           </div>
@@ -198,6 +238,19 @@
       </div>
     </section>
 
+    <section id="sponsor">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 style="section-heading">Sponsors</h2><br>
+            <img src="static/img/logos/SGA.jpeg" alt="">
+            <br>
+            <img src="static/img/logos/frazerlogo.png" alt="" style="max-width: 300px;">
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
 
     <!-- Past Events -->
     <section class="bg-light" id="pastevents">
@@ -217,7 +270,7 @@
                   <i class="fa fa-lightbulb-o fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="/static/img/pastevents/fall16.jpg" alt="">
+              <img class="img-fluid" src="static/img/pastevents/hplite.jpg_large" alt="">
             </a>
             <div class="portfolio-caption">
               <h4>Hack Potsdam lite</h4>

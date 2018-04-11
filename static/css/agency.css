@@ -1,7 +1,9 @@
 :root {
   --officialred: rgba(220, 30, 30, 1);
-  --purp: #360947;
-  --brightpurple: #660080;
+  --purp: hsl(284, 78%, 16%);
+  /* --purp: hsl(284, 78%, 16%); */
+  /* --brightpurple: hsl(288, 100%, 25%); */
+  --brightpurple: hsl(260, 100%, 70%);
  }
 
 body {
@@ -36,7 +38,7 @@ h6 {
 }
 
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 section h2.section-heading {
@@ -254,28 +256,52 @@ header.masthead .intro-text .intro-code {
   }
 }
 
+/* because fuck bootstrap grid*/
+.vert-grid {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr;
+}
+
 .service-heading {
   margin: 15px 0;
   text-transform: none;
 }
 
-<<<<<<< HEAD
-.prizes-row {
+.prizes-row-3x {
   display: grid;
   text-align: center;
   justify-content: center;
   align-items: center;
+  /* grid-gap: 10px; */
+  grid-template-columns: repeat(3, minmax(30px, 1fr));
+}
+
+.prizes-row-2x {
+  display: grid;
   text-align: center;
-  grid-gap: 10px;
-  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  text-align: center;
+  /* grid-gap: 0px; */
+  grid-template-columns: repeat(2, minmax(30px, 1fr));
+}
+
+.prizes-row-3x div,
+.prizes-row-2x div {
+  padding: 20px;
 }
 
 .prize {
   font-size: 40px;
 }
 
-=======
->>>>>>> 929575136156ba59f47db0937ac988b274befa1a
+.dog-prize-photo {
+  max-height: 100px;
+  border-radius: 50%;
+}
+
 #pastevents .portfolio-item {
   right: 0;
   margin: 0 0 15px;
@@ -719,8 +745,6 @@ footer ul {
   padding-left: 0px;
 }
 
-=======
->>>>>>> 929575136156ba59f47db0937ac988b274befa1a
 footer ul.quicklinks {
   font-size: 50%;
   line-height: 40px;
